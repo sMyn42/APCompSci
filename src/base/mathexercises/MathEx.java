@@ -12,7 +12,7 @@ public class MathEx {
         int ones = x % 10;
         int prefix = x / 100;
         return prefix*100 + tens + ones*10;
-        
+
     }
 
     public static void timeLeft(int curHour, int curMin, int depHour, int depMin){

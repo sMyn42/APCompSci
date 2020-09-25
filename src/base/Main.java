@@ -8,6 +8,7 @@ public class Main {
 	// write your code here
         System.out.println(MathEx.dayOfWeek(0, 22));
         System.out.println(MathEx.swap(1775));
+        MathEx.timeLeft(4, 56, 7, 22);
 
     }
 }
