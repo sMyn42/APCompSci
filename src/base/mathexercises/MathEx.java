@@ -7,7 +7,7 @@ Assignment for Math Based Methods.
  */
 
 public class MathEx {
-    public static int swap(int x){
+    public static int digitSwapper(int x){
         int tens = x % 100 / 10;
         int ones = x % 10;
         int prefix = x / 100;
